@@ -1,0 +1,92 @@
+<div class="template">
+	<img class="template-avatar" src="img/avatar.png" alt="" />
+	<div class="template-title">Welcome to WAW Template</div>
+	<div class="template-readme">
+		<div class="template-readme__title">Readme:</div>
+		<div class="template-readme__item">
+			To development you can type in terminal:
+			<span class="template-readme__code">waw</span>
+		</div>
+		<div class="template-readme__item">
+			To create new page you can type in terminal:
+			<span class="template-readme__code">waw page NAME</span>
+		</div>
+		<div class="template-readme__item">
+			You can change port in
+			<span class="template-readme__code">config.json</span>
+			of development webiste
+			<a class="template-readme__link" href="http://localhost:8000"
+				>localhost:8000</a
+			>
+		</div>
+		<div class="template-readme__item">
+			JSON in template.json is accesible over all pages
+		</div>
+		<div class="template-readme__item">
+			JSON in page.json of each page is accesible only of that specific
+			page
+		</div>
+		<div class="template-readme__item">
+			To build project you can type in terminal:
+			<span class="template-readme__code">waw build</span>
+			which will take JSON info and put it into html of dist folder.
+		</div>
+		<div class="template-readme__item">
+			General idea of variables, is that you can modify those on back-end or over
+			<span class="template-readme__code">config.json</span>
+		</div>
+		<div class="template-readme__item">
+			More details of how to use template you can find in
+			<a
+				class="template-readme__link"
+				href="https://webartwork.github.io/wjst/docs"
+				>Wjst Documentation</a
+			>
+		</div>
+		<div class="template-readme__item">
+			Styles: You should import each file to
+			<span class="template-readme__code">index.scss </span> located in
+			<span class="template-readme__code">css</span> folder and write SCSS
+			files in <span class="template-readme__code">css/scss</span>.
+		</div>
+	</div>
+	<div class="template-readme">
+		<div class="template-readme__title">Prefix:</div>
+		<div class="template-readme__item">
+			Prefix which we have in template.json serve as root id for the
+			template
+		</div>
+		<div class="template-readme__item">
+			For example file
+			<span class="template-readme__code">img/avatar.png</span>
+			can be served in html
+			<span class="template-readme__code"
+				>src="img/avatar.png"</span
+			>
+			were our path is
+			<span class="template-readme__code">{prefix}{path}</span>
+		</div>
+		<div class="template-readme__item">
+			Prefix should be unique on project where we have more then one
+			template to serve files properly
+		</div>
+		<div class="template-readme__item">
+			To change prefix, you need simply to replace all in editor phrase
+			`/wjst-default` into new prefix `/newPrefixName`
+		</div>
+		<div class="template-readme__item">
+			To get served template by github pages, you simply have to replace
+			prefix to name of the repo and do
+			<span class="template-readme__code">waw build</span>
+			and then commit to branch which you set in settings > pages
+			<span class="template-readme__code">{repo}/settings/pages</span>
+			and after that you should able to see your wesite online, similar
+			this default repo is shown
+			<a
+				class="template-readme__link"
+				href="https://webartwork.github.io/wjst-default"
+				>webartwork.github.io/wjst-default</a
+			>
+		</div>
+	</div>
+</div>

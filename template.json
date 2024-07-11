@@ -1,0 +1,19 @@
+{
+	"title": "Title which will fit on all pages",
+	"description": "Description which will fit on all pages",
+	"keywords": "waw, web art work, server render, template",
+	"prefix": "/wjst-default",
+	"favicon": "img/favicon.ico",
+	"image": "https://webartwork.github.io/wjst-default/img/avatar.png",
+	"author": "Honchar Denys",
+	"scss": "scss/index.scss",
+	"variables": {
+		"primary_color": "#e0dc10"
+	},
+	"fields": [
+		{
+			"name": "background",
+			"default": "red"
+		}
+	]
+}

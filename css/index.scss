@@ -1,24 +1,31 @@
 body {
-	padding-top: 56px; /* Adjust this value according to the height of your navbar */
+	padding-top: 56px;
+	/* Adjust this value according to the height of your navbar */
 }
+
 .footer {
 	background-color: #343a40;
 	color: #fff;
 	padding: 20px 0;
 }
+
 .footer a {
 	color: #fff;
 }
+
 .footer a:hover {
 	text-decoration: none;
 }
+
 .footer .social-icons a {
 	margin: 0 10px;
 	color: #fff;
 }
+
 .footer .social-icons a:hover {
 	color: #d4d4d4;
 }
+
 .photo-section {
 	display: flex;
 	flex-wrap: wrap;
@@ -26,6 +33,7 @@ body {
 	align-items: center;
 	margin-top: 30px;
 }
+
 .photo-section img {
 	width: 100%;
 	max-width: 250px;
@@ -34,29 +42,29 @@ body {
 }
 
 .main-section img {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .main-section .btn {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .photo-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
 }
 
 .photo-section img {
-    width: 100%;
-    max-width: 250px;
-    transform: rotate(-10deg);
-    margin: 10px;
+	width: 100%;
+	max-width: 250px;
+	transform: rotate(-10deg);
+	margin: 10px;
 }
 
 .single-picture-block img {
-    width: 100%;
-    max-width: 600px;
+	width: 100%;
+	max-width: 600px;
 }

@@ -12,7 +12,7 @@ body {
 }
 
 .nav-link:hover {
-	color: #ffdda7;
+	color: #d4d4d4;
 }
 
 .scrolled {
@@ -82,12 +82,16 @@ body {
 }
 
 .footer .social-icons a {
-	margin: 0 10px;
+	margin: 0 5px;
 	color: #4e4d49;
 }
 
 .footer .social-icons a:hover {
 	color: #d4d4d4;
+}
+
+.list-unstyled li p {
+	margin: 0;
 }
 
 .photo-section {

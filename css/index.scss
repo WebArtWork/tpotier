@@ -43,7 +43,6 @@ body {
 	object-fit: cover;
 }
 
-/* Додайте медіа-запити для адаптивного дизайну */
 @media (max-width: 768px) {
 	.bg-video {
 		height: 50vh;
@@ -59,8 +58,13 @@ body {
 }
 
 .section-1 {
-	padding-top: 200px;
-	padding-bottom: 300px;
+	padding-top: 350px;
+	padding-bottom: 350px;
+}
+
+.section-2 {
+	padding-top: 50px;
+	padding-bottom: 40px;
 }
 
 .footer {

@@ -3,7 +3,7 @@
 	"description": "Our store offers four types of women's dresses. You can order any chosen type of dress in bulk for tailoring. We guarantee the high quality of each product!",
 	"keywords": "waw, web art work, server render, template",
 	"prefix": "/wjst-default",
-	"favicon": "img/favicon.ico",
+	"favicon": "img/favicon.png",
 	"image": "img/logoceo.jpg",
 	"author": "Honchar Denys",
 	"scss": "scss/index.scss",

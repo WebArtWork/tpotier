@@ -4,6 +4,7 @@ body {
 
 .navbar {
 	background-color: rgba(255, 255, 255, 0);
+	transition: background-color 0.5s ease-in-out;
 }
 
 .nav-link {
@@ -12,6 +13,10 @@ body {
 
 .nav-link:hover {
 	color: #ffdda7;
+}
+
+.scrolled {
+	background: #f5f2e8;
 }
 
 .custom-toggler .navbar-toggler {

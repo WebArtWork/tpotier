@@ -1,13 +1,9 @@
 body {
-	padding-top: 120px;
+	padding-top: 56px;
 }
 
 .navbar {
 	background-color: rgba(255, 255, 255, 0);
-}
-
-.navbar.scrolled {
-    background-color: #ffdda7 !important;
 }
 
 .nav-link {
@@ -42,8 +38,23 @@ body {
 	object-fit: cover;
 }
 
+/* Додайте медіа-запити для адаптивного дизайну */
+@media (max-width: 768px) {
+	.bg-video {
+		height: 50vh;
+		/* Зменшення висоти відео для мобільних пристроїв */
+	}
+}
+
+@media (max-width: 480px) {
+	.bg-video {
+		height: 30vh;
+		/* Ще більше зменшення висоти відео для дуже маленьких екранів */
+	}
+}
+
 .section-1 {
-	padding-top: 330px;
+	padding-top: 200px;
 	padding-bottom: 300px;
 }
 

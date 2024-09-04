@@ -25,9 +25,16 @@ body {
 .scrolled {
 	background: #f5f2e8;
 }
+.navbar-toggler:focus {
+	box-shadow: unset !important;
+}
+.navbar-toggler {
+	border:1px solid #4e4d49;
+	transition: all .3s;
+}
 
-.custom-toggler .navbar-toggler {
-	border-color: #4e4d49;
+.navbar-toggler.active {
+    border: 4px solid #4e4d49;
 }
 
 .custom-toggler .navbar-toggler-icon {

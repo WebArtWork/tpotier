@@ -5,3 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         toggler.classList.toggle('active');
     });
 });
+document.querySelector(".burger-wrap").addEventListener("click", function () {
+    document.querySelector(".collapse").classList.toggle("collapse--open");
+    document.querySelector(".burger").classList.toggle("burger--close");
+});

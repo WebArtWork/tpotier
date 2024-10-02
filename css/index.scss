@@ -206,7 +206,7 @@ body {
 	margin: 0 5px;
 	color: #4e4d49;
 	text-decoration: none;
-	transition: all 0.3s;
+	transition: all .3s;
 }
 
 .footer .social-icons a:hover {
@@ -262,4 +262,9 @@ body {
 
 a {
 	text-decoration: none;
+
+	&:hover {
+		color: rgb(212, 212, 212);
+		transition: all .3s;
+	}
 }

@@ -153,6 +153,18 @@ body {
 	.logo-f {
 		height: 90px;
 	}
+
+	.footer .col-md-4:nth-child(2) {
+        order: 3;
+    }
+
+    .footer .col-md-4:nth-child(3) {
+        order: 2;
+    }
+
+	.ps {
+        padding-left: 9% !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -186,6 +198,14 @@ body {
 	.logo-f {
 		height: 70px;
 	}
+
+	.footer .col-md-4:nth-child(2) {
+        order: 3;
+    }
+
+    .footer .col-md-4:nth-child(3) {
+        order: 2;
+    }
 }
 
 .footer {

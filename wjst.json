@@ -1,0 +1,19 @@
+{
+	"title": "T.Potier | Ladies' Dress Store",
+	"description": "T.Potier offers a collection of women's wedding dresses, ranging from classic styles to extraordinary designs. Our brand guarantees the high quality and perfection of each product. You can easily place a wholesale order for any dress design you wish by contacting us; you can find our contact information below. We look forward to working with you!",
+	"keywords": "waw, web art work, server render, template",
+	"prefix": "/wjst-default",
+	"favicon": "img/fav.ico",
+	"image": "img/logoceo.jpg",
+	"author": "Honchar Denys",
+	"scss": "scss/index.scss",
+	"variables": {
+		"primary_color": "#e0dc10"
+	},
+	"fields": [
+		{
+			"name": "background",
+			"default": "red"
+		}
+	]
+}

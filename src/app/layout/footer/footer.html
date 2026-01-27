@@ -16,7 +16,7 @@
 			<div class="footer__col">
 				<div class="footer__title">Pages</div>
 				<div class="footer__links">
-					<a class="footer__link" [routerLink]="['/products']">products</a>
+					<a class="footer__link" [routerLink]="['/']">products</a>
 				</div>
 			</div>
 
@@ -24,7 +24,7 @@
 				<div class="footer__title">Dresses</div>
 				<div class="footer__links footer__links--grid">
 					@for (p of products(); track p.id) {
-						<a class="footer__link" [routerLink]="['/product', p.id]">{{ p.name }}</a>
+						<a class="footer__link" [routerLink]="['/dress', p.id]">{{ p.name }}</a>
 					}
 				</div>
 			</div>

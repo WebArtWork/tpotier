@@ -3,22 +3,19 @@ import { PRODUCTS } from './app.products';
 import { toSlug } from './app.utils';
 
 export const serverRoutes: ServerRoute[] = [
-	// /products is rendered once
 	{
 		path: '',
 		renderMode: RenderMode.Prerender,
 	},
 
-	// /product/:id is rendered for every product we have
 	{
-		path: 'product/:id',
+		path: 'dress/:id',
 		renderMode: RenderMode.Prerender,
 		async getPrerenderParams() {
 			return PRODUCTS.map((p) => ({ id: p.id }));
 		},
 	},
 
-	// /product/:id is rendered for every product we have
 	{
 		path: 'collection/:id',
 		renderMode: RenderMode.Prerender,

@@ -1,0 +1,45 @@
+<div class="products">
+	<app-topbar></app-topbar>
+
+	<!-- intro hero -->
+	<section class="products__intro" aria-label="Intro">
+		<img class="products__intro-bg" src="/assets/bg.jpg" alt="" loading="eager" />
+
+		<div class="products__intro-overlay" aria-hidden="true"></div>
+
+		<div class="products__intro-inner">
+			<p class="products__intro-text">
+				T. Potier is a wholesale bridal brand from Ukraine, creating timeless wedding
+				dresses handcrafted from premium fabrics with refined attention to detail.
+			</p>
+		</div>
+	</section>
+
+	<!-- products -->
+	<section class="products__section" aria-label="Products">
+		<div class="products__grid">
+			@for (p of products(); track p.id) {
+				<a
+					class="products__card group"
+					[routerLink]="['/product', p.id]"
+					aria-label="Open product"
+				>
+					<div class="products__img-wrap">
+						<div class="products__name-badge">
+							<div class="products__name">{{ p.name }}</div>
+						</div>
+
+						<img
+							class="products__img"
+							[src]="p.images[0]"
+							[alt]="p.name"
+							loading="lazy"
+						/>
+					</div>
+				</a>
+			}
+		</div>
+	</section>
+
+	<app-footer></app-footer>
+</div>

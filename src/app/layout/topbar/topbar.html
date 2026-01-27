@@ -1,0 +1,17 @@
+<header class="topbar" [class.topbar--scrolled]="scrolled()">
+	<div class="topbar__inner">
+		<a class="topbar__brand" [routerLink]="['/']" aria-label="T.Potier home">
+			<img class="topbar__logo" src="/assets/logo.png" alt="T.Potier" />
+		</a>
+
+		<nav class="topbar__links" aria-label="Contact links">
+			<a class="topbar__link" [href]="links.instagramUrl" target="_blank" rel="noopener"
+				>Instagram</a
+			>
+			<span class="topbar__sep" aria-hidden="true">•</span>
+			<a class="topbar__link" [href]="links.phoneHref">{{ links.phone }}</a>
+			<span class="topbar__sep" aria-hidden="true">•</span>
+			<a class="topbar__link" [href]="links.emailHref">{{ links.email }}</a>
+		</nav>
+	</div>
+</header>

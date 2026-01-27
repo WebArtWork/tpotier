@@ -1,0 +1,72 @@
+@reference "tailwindcss";
+
+.products {
+	@apply min-h-dvh bg-white text-zinc-900;
+}
+
+/* intro */
+.products__intro {
+	@apply relative w-full;
+	@apply h-[50vh] min-h-[320px] max-h-[560px];
+	@apply overflow-hidden;
+}
+
+.products__intro-bg {
+	@apply absolute inset-0 h-full w-full object-cover object-center;
+}
+
+.products__intro-overlay {
+	@apply absolute inset-0;
+	@apply bg-gradient-to-r from-black/55 via-black/35 to-black/0;
+}
+
+.products__intro-inner {
+	@apply relative h-full;
+	@apply mx-auto max-w-6xl px-4;
+	@apply flex items-end pb-10 sm:pb-12;
+}
+
+.products__intro-text {
+	@apply max-w-xl;
+	@apply text-base leading-relaxed text-white/90;
+	@apply drop-shadow-[0_1px_2px_rgba(0,0,0,0.35)];
+}
+
+/* products grid */
+.products__section {
+	@apply mx-auto max-w-6xl px-4 py-10;
+}
+
+.products__grid {
+	@apply grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3;
+}
+
+.products__card {
+	@apply block;
+}
+
+.products__img-wrap {
+	@apply relative overflow-hidden bg-zinc-100;
+	@apply aspect-[3/4];
+}
+
+.products__img {
+	@apply h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.02];
+}
+
+.products__img-fallback {
+	@apply h-full w-full bg-gradient-to-b from-zinc-100 to-zinc-200;
+}
+
+/* name overlay */
+.products__name-badge {
+	@apply absolute left-0 right-0 top-0 z-10 px-4 pt-4;
+	pointer-events: none;
+}
+
+.products__name {
+	@apply inline-flex max-w-full;
+	@apply bg-white/85 backdrop-blur-sm;
+	@apply px-3 py-2 text-sm font-semibold tracking-wide text-zinc-900;
+	@apply border border-zinc-200/80;
+}

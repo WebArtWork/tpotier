@@ -1,0 +1,95 @@
+<div class="product">
+	<app-topbar></app-topbar>
+
+	@if (product()) {
+		<section class="product__section" aria-label="Product">
+			<div class="product__inner">
+				<div class="product__grid">
+					<!-- media -->
+					<div class="product__media">
+						<div class="product__main">
+							@if (mainImage()) {
+								<img
+									class="product__main-img"
+									[src]="mainImage()"
+									[alt]="product()?.name"
+								/>
+							} @else {
+								<div class="product__main-fallback" aria-hidden="true"></div>
+							}
+						</div>
+
+						<div class="product__thumbs" aria-label="Gallery">
+							@for (img of product()?.images; track trackBySrc($index, img)) {
+								<button
+									[class.product__thumb--active]="$index === selectedIndex()"
+									(click)="selectImage($index)"
+									aria-label="Select image"
+									class="product__thumb"
+									type="button"
+								>
+									<img
+										class="product__thumb-img"
+										[src]="img"
+										[alt]="product()?.name + ' image ' + ($index + 1)"
+									/>
+								</button>
+							}
+						</div>
+					</div>
+
+					<!-- details -->
+					<aside class="product__details">
+						<h1 class="product__name">{{ product()?.name }}</h1>
+
+						<a
+							[routerLink]="['/collection', toSlug(product()?.category || '')]"
+							aria-label="Open collection"
+							class="product__meta"
+						>
+							<span class="product__pill">{{ product()?.category }}</span>
+						</a>
+
+						@if (product()?.description?.en || product()?.description?.ua) {
+							<div class="product__desc">
+								@if (product()?.description?.en) {
+									<p class="product__desc-text">
+										{{ product()?.description?.en }}
+									</p>
+								}
+
+								@if (product()?.description?.ua) {
+									<p class="product__desc-text">
+										{{ product()?.description?.ua }}
+									</p>
+								}
+							</div>
+						}
+
+						<div class="product__cta">
+							<a
+								[href]="'mailto:' + links.email + '?subject=' + product()?.id"
+								class="product__cta-btn"
+							>
+								contact to order
+							</a>
+
+							<a class="product__cta-link" [routerLink]="['/']">view all dresses</a>
+						</div>
+					</aside>
+				</div>
+			</div>
+		</section>
+	} @else {
+		<section class="product__section" aria-label="Not found">
+			<div class="product__inner">
+				<div class="product__empty">
+					<div class="product__empty-title">Product not found</div>
+					<a class="product__back" [routerLink]="['/products']">← back to products</a>
+				</div>
+			</div>
+		</section>
+	}
+
+	<app-footer></app-footer>
+</div>

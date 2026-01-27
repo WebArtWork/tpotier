@@ -1,0 +1,60 @@
+<footer class="footer">
+	<div class="footer__inner">
+		<div class="footer__brand">
+			<div class="footer__logo">tpotier.com</div>
+			<div class="footer__description">
+				T.Potier offers a collection of women's wedding dresses, ranging from classic styles
+				to extraordinary designs. Our brand guarantees the high quality and perfection of
+				each product. You can easily place a wholesale order for any dress design you wish
+				by contacting us; you can find our contact information below. We look forward to
+				working with you!
+			</div>
+			<div class="footer__year">© {{ year }} Potier</div>
+		</div>
+
+		<div class="footer__cols">
+			<div class="footer__col">
+				<div class="footer__title">Pages</div>
+				<div class="footer__links">
+					<a class="footer__link" [routerLink]="['/products']">products</a>
+				</div>
+			</div>
+
+			<div class="footer__col">
+				<div class="footer__title">Dresses</div>
+				<div class="footer__links footer__links--grid">
+					@for (p of products(); track p.id) {
+						<a class="footer__link" [routerLink]="['/product', p.id]">{{ p.name }}</a>
+					}
+				</div>
+			</div>
+
+			<div class="footer__col">
+				<div class="footer__title">Links</div>
+				<div class="footer__links">
+					<a
+						[href]="links.instagramUrl"
+						class="footer__link"
+						target="_blank"
+						rel="noopener"
+						>Instagram</a
+					>
+					<a
+						[href]="links.phoneHref"
+						class="footer__link"
+						target="_blank"
+						rel="noopener"
+						>{{ links.phone }}</a
+					>
+					<a
+						[href]="links.emailHref"
+						class="footer__link"
+						target="_blank"
+						rel="noopener"
+						>{{ links.email }}</a
+					>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

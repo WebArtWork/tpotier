@@ -1,0 +1,42 @@
+@reference "tailwindcss";
+
+.topbar {
+	@apply fixed left-0 right-0 top-0 z-50;
+	@apply h-[52px];
+	@apply bg-transparent text-white;
+	@apply transition-colors duration-200;
+}
+
+.topbar--scrolled {
+	@apply bg-stone-100/95 text-zinc-800;
+	@apply border-b border-zinc-200;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+}
+
+.topbar__inner {
+	@apply mx-auto max-w-6xl px-4;
+	@apply h-full flex items-center justify-between gap-4;
+}
+
+.topbar__brand {
+	@apply inline-flex items-center;
+}
+
+.topbar__logo {
+	@apply h-7 w-auto select-none;
+}
+
+.topbar__links {
+	@apply hidden sm:flex items-center gap-3;
+	@apply text-sm;
+	@apply whitespace-nowrap;
+}
+
+.topbar__link {
+	@apply border-b border-transparent hover:border-current transition;
+}
+
+.topbar__sep {
+	@apply opacity-50;
+}

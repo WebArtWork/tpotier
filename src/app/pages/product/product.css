@@ -1,0 +1,121 @@
+@reference "tailwindcss";
+
+.product {
+	@apply min-h-dvh bg-white text-zinc-900;
+}
+
+.product__section {
+	@apply mx-auto max-w-6xl px-4 pt-6 pb-12;
+}
+
+/* fixed topbar */
+.product__inner {
+	@apply pt-[56px];
+}
+
+/* layout */
+.product__grid {
+	@apply grid grid-cols-1 gap-10 lg:grid-cols-[1.4fr_1fr];
+}
+
+/* media */
+.product__media {
+	@apply flex flex-col gap-4;
+}
+
+.product__main {
+	@apply w-full overflow-hidden bg-zinc-100;
+	@apply aspect-[3/4];
+}
+
+.product__main-img {
+	@apply h-full w-full object-cover;
+}
+
+.product__main-fallback {
+	@apply h-full w-full bg-gradient-to-b from-zinc-100 to-zinc-200;
+}
+
+.product__thumbs {
+	@apply grid grid-cols-5 gap-2 sm:grid-cols-6;
+}
+
+.product__thumb {
+	@apply relative overflow-hidden bg-zinc-100;
+	@apply aspect-square;
+	@apply outline-none;
+	@apply ring-1 ring-transparent hover:ring-zinc-300 transition;
+}
+
+.product__thumb--active {
+	@apply ring-2 ring-zinc-900;
+}
+
+.product__thumb-img {
+	@apply h-full w-full object-cover;
+}
+
+/* details */
+.product__details {
+	@apply flex flex-col gap-5;
+}
+
+.product__name {
+	@apply text-2xl font-semibold tracking-tight;
+}
+
+.product__meta {
+	@apply w-max inline-flex items-center;
+	@apply no-underline;
+}
+
+.product__meta:hover .product__pill {
+	@apply border-zinc-400;
+}
+
+.product__pill {
+	@apply text-xs text-zinc-800;
+	@apply border border-zinc-200 bg-stone-100;
+	@apply px-3 py-1.5;
+	@apply cursor-pointer;
+}
+
+.product__desc {
+	@apply flex flex-col gap-4;
+}
+
+.product__desc-text {
+	@apply text-sm leading-relaxed text-zinc-700;
+	@apply whitespace-pre-line;
+}
+
+/* cta */
+.product__cta {
+	@apply mt-2 flex flex-col gap-3;
+}
+
+.product__cta-btn {
+	@apply inline-flex items-center justify-center;
+	@apply bg-zinc-900 text-white;
+	@apply px-4 py-3 text-sm font-semibold;
+	@apply hover:bg-zinc-800 transition;
+}
+
+.product__cta-link {
+	@apply text-sm text-zinc-700;
+	@apply underline underline-offset-4 decoration-transparent hover:decoration-zinc-800 transition;
+}
+
+/* not found */
+.product__empty {
+	@apply pt-[56px] flex flex-col gap-3;
+}
+
+.product__empty-title {
+	@apply text-lg font-semibold;
+}
+
+.product__back {
+	@apply text-sm text-zinc-700;
+	@apply underline underline-offset-4 decoration-transparent hover:decoration-zinc-800 transition;
+}

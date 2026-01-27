@@ -27,10 +27,31 @@
 	@apply h-7 w-auto select-none;
 }
 
+/* mobile icons */
+.topbar__icons {
+	@apply flex items-center gap-1 sm:hidden;
+}
+
+.topbar__icon {
+	@apply inline-flex items-center justify-center;
+	@apply h-9 w-9 rounded-full;
+	@apply text-current;
+	@apply transition;
+	@apply hover:bg-black/10;
+}
+
+.topbar--scrolled .topbar__icon {
+	@apply hover:bg-black/5;
+}
+
+.topbar__svg {
+	@apply h-5 w-5;
+}
+
+/* desktop links */
 .topbar__links {
 	@apply hidden sm:flex items-center gap-3;
-	@apply text-sm;
-	@apply whitespace-nowrap;
+	@apply text-sm whitespace-nowrap;
 }
 
 .topbar__link {

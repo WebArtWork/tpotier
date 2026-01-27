@@ -64,21 +64,24 @@ export class ProductPage {
 		this.title.setTitle(t);
 
 		// title metas
-		this.meta.updateTag({ itemprop: 'name', content: t });
+		this.meta.updateTag({ itemprop: 'name', content: t } as any, 'itemprop="name"');
 		this.meta.updateTag({ name: 'twitter:title', content: t });
 		this.meta.updateTag({ property: 'og:title', content: t });
 
 		// description metas (only if we have EN description)
 		if (d) {
 			this.meta.updateTag({ name: 'description', content: d });
-			this.meta.updateTag({ itemprop: 'description', content: d });
+			this.meta.updateTag(
+				{ itemprop: 'description', content: d } as any,
+				'itemprop="description"',
+			);
 			this.meta.updateTag({ name: 'twitter:description', content: d });
 			this.meta.updateTag({ property: 'og:description', content: d });
 		}
 
 		// image metas (only if we have an image)
 		if (img) {
-			this.meta.updateTag({ itemprop: 'image', content: img });
+			this.meta.updateTag({ itemprop: 'image', content: img } as any, 'itemprop="image"');
 			this.meta.updateTag({ name: 'twitter:image:src', content: img });
 			this.meta.updateTag({ property: 'og:image', content: img });
 		}

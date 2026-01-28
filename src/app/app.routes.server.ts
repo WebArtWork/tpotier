@@ -9,6 +9,11 @@ export const serverRoutes: ServerRoute[] = [
 	},
 
 	{
+		path: 'collections',
+		renderMode: RenderMode.Prerender,
+	},
+
+	{
 		path: 'dress/:id',
 		renderMode: RenderMode.Prerender,
 		async getPrerenderParams() {

@@ -3,14 +3,33 @@
 
 	<!-- intro hero -->
 	<section class="products__intro" aria-label="Intro">
-		<img class="products__intro-bg" src="/assets/bg.jpg" alt="" loading="eager" />
+		<img
+			class="products__intro-bg products__intro-bg--mobile"
+			[src]="images.mobile"
+			alt=""
+			loading="eager"
+			fetchpriority="high"
+		/>
+
+		<img
+			class="products__intro-bg products__intro-bg--web"
+			[src]="images.web"
+			alt=""
+			loading="eager"
+			fetchpriority="high"
+		/>
 
 		<div class="products__intro-overlay" aria-hidden="true"></div>
 
+		<nav class="products__intro-nav" aria-label="Primary">
+			<a class="products__intro-navlink" routerLink="/products">Catalogue</a>
+			<a class="products__intro-navlink" routerLink="/collections">Collections</a>
+			<a class="products__intro-navlink" routerLink="/delivery">Payment &amp; Delivery</a>
+		</nav>
+
 		<div class="products__intro-inner">
 			<p class="products__intro-text">
-				T. Potier is a wholesale bridal brand from Ukraine, creating timeless wedding
-				dresses handcrafted from premium fabrics with refined attention to detail.
+				{{ header }}
 			</p>
 		</div>
 	</section>

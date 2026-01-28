@@ -166,81 +166,6 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
-		name: 'Salvia',
-		id: 'salvia',
-		category: 'Signature Collection',
-		images: [
-			'assets/photo/salvia/1.jpg',
-			'assets/photo/salvia/2.jpg',
-			'assets/photo/salvia/3.jpg',
-			'assets/photo/salvia/4.jpg',
-		],
-		description: {
-			en: "The 'Salvia' dress is a stunning gown that combines elegance and versatility. It features a beautifully beaded bodice that adds a touch of sparkle, complemented by removable long sheer sleeves. The light tulle skirt has a tasteful cutout, enhancing its graceful silhouette. The dress has a deep V-neckline and an open back for an elegant style.",
-			ua: "Сукня 'Salvia' — це вражаюче вбрання, яке поєднує елегантність і універсальність. Вона має красиво оздоблений бісером ліф, що додає блискучості, доповнений знімними довгими прозорими рукавами. Легка фатинова спідниця має витончений виріз, підкреслюючи її граціозний силует. Сукня має глибокий V-подібний виріз і відкриту спину, що створює елегантний стиль.",
-		},
-	},
-	{
-		name: 'Emely',
-		id: 'emely',
-		category: 'Signature Collection',
-		images: [
-			'assets/photo/emely/1.jpg',
-			'assets/photo/emely/2.jpg',
-			'assets/photo/emely/3.jpg',
-			'assets/photo/emely/4.jpg',
-		],
-		description: {
-			en: "The 'Emily' dress is a delicate gown featuring a modern cutout on the skirt. It has a square neckline and square back, along with beautiful long lace sleeves that add elegance. Internal lacing on the back provides a secure and adjustable fit. The flowy design and lace details combine to create a soft, romantic look.",
-			ua: "Сукня 'Emily' — це ніжне вбрання з сучасним вирізом на спідниці. Вона має квадратний виріз спереду та квадратну спину, а також красиві довгі мереживні рукави, які додають елегантності. Внутрішнє шнурівка на спині забезпечує надійну та регульовану посадку. Цей дизайн і мереживні деталі в поєднанні створюють м’який романтичний вигляд.",
-		},
-	},
-	{
-		name: 'Megan',
-		id: 'megan',
-		category: 'Signature Collection',
-		images: [
-			'assets/photo/megan/1.jpg',
-			'assets/photo/megan/2.jpg',
-			'assets/photo/megan/3.jpg',
-			'assets/photo/megan/4.jpg',
-		],
-		description: {
-			en: "The 'Megan' dress is a beautiful gown featuring a lace bodice and delicate tulle bow-tied straps, which are removable for versatility. It showcases a deep V-neckline and a soft long tulle skirt, creating a romantic and graceful look. The dress also has an open back with thin ties that make it adjustable, along with a thin fabric belt to accentuate the waist.",
-			ua: "Сукня 'Megan' має мереживний ліф і ніжні фатинові зав’язки у вигляді бантиків, які можна зняти для універсальності. Вона має глибокий V-подібний виріз і м’яку довгу тюлеву спідницю, створюючи романтичний і граціозний вигляд. Сукня також має відкриту спину з тонкими зав’язками, що дозволяють регулювати розмір, а також тонкий тканинний пояс для підкреслення талії.",
-		},
-	},
-	{
-		name: 'Loren',
-		id: 'loren',
-		category: 'Signature Collection',
-		images: [
-			'assets/photo/loren/1.jpg',
-			'assets/photo/loren/2.jpg',
-			'assets/photo/loren/3.jpg',
-			'assets/photo/loren/4.jpg',
-		],
-		description: {
-			en: "The 'Loren' dress features a satin skirt with a thigh-high slit and a tie-back design. Its sparkling top is adorned with hand-embroidered beads and is paired with a removable cape, offering versatility and elegance to the look. The dress also includes a thin lace belt and ties at the back, as well as a square neckline that enhances its sophisticated style.",
-			ua: "Сукня 'Loren' має атласну спідницю з високим розрізом і зав'язками на спині. Її блискучий ліф прикрашений вишитим бісером і доповнений знімною накидкою, також вишитою вручну, що додає універсальності та елегантності образу. Сукня також має тонкий мереживний пояс та зав'язки на спині, а також квадратний виріз, що підкреслює її вишуканий стиль.",
-		},
-	},
-	{
-		name: 'Elada',
-		id: 'elada',
-		category: 'Atelier Collection',
-		images: [
-			'assets/photo/elada/1.jpg',
-			'assets/photo/elada/2.jpg',
-			'assets/photo/elada/3.jpg',
-			'assets/photo/elada/4.jpg',
-		],
-		description: {
-			en: "The 'Elada' is a stunning dress crafted from glittering tulle, featuring adjustable ties on the back and shoulders, allowing the straps to be easily adjusted. The flowing skirt adds a touch of elegance, making this design both graceful and versatile.",
-			ua: "'Elada' — сукня, виготовлена ​​з блискучого фатину, має регульовані зав’язки на спині та плечах, що дозволяють піднімати або опускати лямки. Струхлива спідниця додає елегантності, роблячи її витонченим та універсальним дизайном.",
-		},
-	},
-	{
 		name: 'Bianca',
 		id: 'bianca',
 		category: 'Atelier Collection',
@@ -410,6 +335,56 @@ export const PRODUCTS: Product[] = [
 		description: {
 			en: 'Sharon features a structured corset with a deep neckline and a transparent back finished with a row of delicate buttons. The skirt softly follows the hips before flowing to the floor, creating a clean and confident silhouette. The dress is fully covered with high-quality lace, enriched with sequins and beads for a refined, luminous finish.',
 			ua: 'Sharon — сукня зі структурованим корсетом, глибокою лінією декольте та прозорою спинкою, оздобленою рядом делікатних ґудзиків. Спідниця м’яко підкреслює стегна та плавно спадає донизу, формуючи чіткий і впевнений силует. Високоякісне мереживо з паєтками та бісером додає образу глибини й витонченого сяйва.',
+		},
+	},
+	{
+		name: 'Stacy',
+		id: 'stacy',
+		category: 'Atelier Collection',
+		images: [
+			'assets/photo/stacy/1.jpg',
+			'assets/photo/stacy/2.jpg',
+			'assets/photo/stacy/3.jpg',
+			'assets/photo/stacy/4.jpg',
+			'assets/photo/stacy/5.jpg',
+		],
+		description: {
+			en: "The 'Stacy' dress is a bold and modern choice for the bride. This mini dress is covered in shimmering sequins and beads, with a sweetheart neckline and long sleeves. Its standout feature is a detachable tulle skirt that can be easily added for a more dramatic look. A perfect way to combine glamour and comfort.",
+			ua: "Сукня 'Stacy' — яскравий і сучасний вибір для нареченої. Це міні-сукня, прикрашена блискучими паєтками та бісером, із вирізом у формі серця та довгими рукавами. Особливість сукні — знімна фатинова спідниця, яку можна легко прикріпити для більш урочистого образу. Ідеальний варіант, щоб поєднати розкіш і зручність.",
+		},
+	},
+	{
+		name: 'Sofi',
+		id: 'sofi',
+		category: 'Signature Collection',
+		images: [
+			'assets/photo/sofi/1.jpg',
+			'assets/photo/sofi/2.jpg',
+			'assets/photo/sofi/3.jpg',
+			'assets/photo/sofi/4.jpg',
+			'assets/photo/sofi/5.jpg',
+		],
+		description: {
+			en: "'Sofi' is a delicate and graceful gown with thin straps and a bodice adorned with 3D floral lace that softly flows into a light tulle skirt. The deep, elegant back neckline adds a touch of allure. A truly fairytale dress for a modern princess.",
+			ua: "'Sofi' — ніжна та витончена сукня з тонкими бретельками. Верх оздоблений об’ємним мереживом із 3D-квітами, яке плавно переходить у легку фатинову спідницю. Глибокий, елегантний виріз на спинці додає шарму. Сукня справжньої принцеси.",
+		},
+	},
+	{
+		name: 'Valerie',
+		id: 'valerie',
+		category: 'Essence Collection',
+		images: [
+			'assets/photo/valerie/1.jpg',
+			'assets/photo/valerie/2.jpg',
+			'assets/photo/valerie/3.jpg',
+			'assets/photo/valerie/4.jpg',
+			'assets/photo/valerie/5.jpg',
+			'assets/photo/valerie/6.jpg',
+			'assets/photo/valerie/7.jpg',
+		],
+		description: {
+			en: 'Valerie features a defined neckline and a fully lace-covered silhouette with floral and leaf motifs, finished with subtle sequins. Back lacing allows the waist to be elegantly shaped. The set includes shoulder-length gloves, with the option to add a chiffon scarf for a more layered look.',
+			ua: 'Valerie — сукня з виразною лінією декольте та повністю мереживним силуетом з візерунками квітів і листя, доповненими делікатними паєтками. Шнурівка на спинці дозволяє красиво підкреслити талію. У комплект входять рукавички до плечей, а за бажанням образ можна доповнити шифоновим шарфом.',
 		},
 	},
 ];

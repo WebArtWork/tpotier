@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
-import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Product } from '../../app.interface';
 import { links } from '../../app.links';
 import { PRODUCTS } from '../../app.products';
+import { AppService } from '../../app.service';
 import { toSlug } from '../../app.utils';
 import { Footer } from '../../layout/footer/footer';
 import { Topbar } from '../../layout/topbar/topbar';
@@ -17,8 +17,7 @@ import { Topbar } from '../../layout/topbar/topbar';
 })
 export class ProductPage {
 	private readonly route = inject(ActivatedRoute);
-	private readonly title = inject(Title);
-	private readonly meta = inject(Meta);
+	private readonly appService = inject(AppService);
 
 	private readonly all = signal<Product[]>(PRODUCTS);
 
@@ -45,7 +44,12 @@ export class ProductPage {
 		this.productId.set(id);
 
 		const p = this.product();
-		this.applySeo(p);
+
+		this.appService.setSeo(
+			`${p?.name} | Ladies' Dress Store T.Potier`,
+			p?.description?.en?.trim() || '',
+			p?.images?.[0] ? `https://tpotier.com/${p?.images[0].replace(/^\//, '')}` : '',
+		);
 	}
 
 	protected selectImage(index: number) {
@@ -53,37 +57,4 @@ export class ProductPage {
 	}
 
 	protected trackBySrc = (_: number, src: string) => src;
-
-	private applySeo(p: Product | null) {
-		if (!p) return;
-
-		const t = `${p.name} | Ladies' Dress Store T.Potier`;
-		const d = p.description?.en?.trim() || '';
-		const img = p.images?.[0] ? `https://tpotier.com/${p.images[0].replace(/^\//, '')}` : '';
-
-		this.title.setTitle(t);
-
-		// title metas
-		this.meta.updateTag({ itemprop: 'name', content: t } as any, 'itemprop="name"');
-		this.meta.updateTag({ name: 'twitter:title', content: t });
-		this.meta.updateTag({ property: 'og:title', content: t });
-
-		// description metas (only if we have EN description)
-		if (d) {
-			this.meta.updateTag({ name: 'description', content: d });
-			this.meta.updateTag(
-				{ itemprop: 'description', content: d } as any,
-				'itemprop="description"',
-			);
-			this.meta.updateTag({ name: 'twitter:description', content: d });
-			this.meta.updateTag({ property: 'og:description', content: d });
-		}
-
-		// image metas (only if we have an image)
-		if (img) {
-			this.meta.updateTag({ itemprop: 'image', content: img } as any, 'itemprop="image"');
-			this.meta.updateTag({ name: 'twitter:image:src', content: img });
-			this.meta.updateTag({ property: 'og:image', content: img });
-		}
-	}
 }

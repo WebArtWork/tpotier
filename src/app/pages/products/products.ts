@@ -43,16 +43,16 @@ export class ProductsPage {
 
 	collectionsImages = {
 		'Essence Collection': {
-			web: '/assets/bgw.jpg',
-			mobile: '/assets/bg.jpg',
+			web: '/assets/bgwessence.png',
+			mobile: '/assets/bgessence.png',
 		},
 		'Signature Collection': {
-			web: '/assets/bgw.jpg',
-			mobile: '/assets/bg.jpg',
+			web: '/assets/bgwsignature.png',
+			mobile: '/assets/bgsignature.png',
 		},
 		'Atelier Collection': {
-			web: '/assets/bgw.jpg',
-			mobile: '/assets/bg.jpg',
+			web: '/assets/bgwatelier.png',
+			mobile: '/assets/bgatelier.png',
 		},
 	};
 

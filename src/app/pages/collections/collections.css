@@ -1,0 +1,27 @@
+.collections {
+	background: #fff;
+}
+
+.collections__main {
+	display: flex;
+	flex-direction: column;
+}
+
+/* big sections + scroll */
+.collections__item {
+	height: clamp(520px, 70vh, 920px);
+	background: center / cover no-repeat;
+	display: block;
+}
+
+.collections__item--essence {
+	background-image: url('/assets/bgessence.png');
+}
+
+.collections__item--signature {
+	background-image: url('/assets/bgsignature.png');
+}
+
+.collections__item--atelier {
+	background-image: url('/assets/bgatelier.png');
+}

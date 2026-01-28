@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
 	selector: 'app-root',
@@ -7,4 +8,14 @@ import { RouterOutlet } from '@angular/router';
 	templateUrl: './app.html',
 	styleUrl: './app.css',
 })
-export class App {}
+export class App {
+	private readonly router = inject(Router);
+
+	constructor() {
+		this.router.events
+			.pipe(filter((e): e is NavigationEnd => e instanceof NavigationEnd))
+			.subscribe(() => {
+				window?.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior });
+			});
+	}
+}

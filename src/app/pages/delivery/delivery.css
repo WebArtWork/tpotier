@@ -1,0 +1,75 @@
+@reference "tailwindcss";
+
+.payment-delivery {
+	@apply bg-white text-zinc-900;
+}
+
+/* hero */
+.payment-delivery__hero {
+	@apply w-full;
+	@apply pt-[84px] pb-10; /* room for fixed topbar */
+	@apply bg-gradient-to-b from-stone-100 to-white;
+}
+
+.payment-delivery__container {
+	@apply mx-auto max-w-6xl px-4;
+}
+
+.payment-delivery__title {
+	@apply text-3xl sm:text-4xl;
+	@apply font-medium tracking-tight;
+}
+
+.payment-delivery__subtitle {
+	@apply mt-3;
+	@apply text-base sm:text-lg;
+	@apply text-zinc-600;
+	@apply max-w-2xl;
+}
+
+/* content */
+.payment-delivery__content {
+	@apply py-10 sm:py-14;
+}
+
+.payment-delivery__grid {
+	@apply grid gap-4 sm:gap-6;
+	@apply grid-cols-1 md:grid-cols-2;
+}
+
+.payment-delivery__card {
+	@apply rounded-2xl border border-zinc-200;
+	@apply bg-white;
+	@apply p-5 sm:p-6;
+	@apply shadow-sm;
+}
+
+.payment-delivery__card--wide {
+	@apply md:col-span-2;
+}
+
+.payment-delivery__card-title {
+	@apply text-lg sm:text-xl;
+	@apply font-medium;
+}
+
+.payment-delivery__text {
+	@apply mt-3;
+	@apply text-zinc-700 leading-relaxed;
+}
+
+.payment-delivery__list {
+	@apply mt-3;
+	@apply space-y-2;
+	@apply text-zinc-700 leading-relaxed;
+
+	li {
+		@apply pl-5 relative;
+	}
+
+	li::before {
+		content: '';
+		@apply absolute left-0 top-[0.55em];
+		@apply h-1.5 w-1.5 rounded-full bg-zinc-400;
+	}
+}

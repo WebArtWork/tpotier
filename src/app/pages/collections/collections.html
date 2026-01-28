@@ -1,1 +1,27 @@
-<p>collections works!</p>
+<div class="collections">
+	<div class="collections__topbar">
+		<app-topbar></app-topbar>
+	</div>
+
+	<main class="collections__main" aria-label="Collections">
+		<div
+			class="collections__item collections__item--essence"
+			routerLink="/collection/essence-collection"
+			aria-label="Essence"
+		></div>
+		<div
+			class="collections__item collections__item--signature"
+			routerLink="/collection/signature-collection"
+			aria-label="Signature"
+		></div>
+		<div
+			class="collections__item collections__item--atelier"
+			routerLink="/collection/atelier-collection"
+			aria-label="Atelier"
+		></div>
+	</main>
+
+	<div class="collections__footer">
+		<app-footer></app-footer>
+	</div>
+</div>

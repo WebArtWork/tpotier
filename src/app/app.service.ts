@@ -11,7 +11,7 @@ export class AppService {
 	setSeo(title: string, description: string, image: string) {
 		description = description.trim();
 
-		image = 'https://tpotier.com/' + image;
+		image = 'https://tpotier.com' + image;
 
 		this.title.setTitle(title);
 

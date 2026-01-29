@@ -48,7 +48,7 @@ export class ProductPage {
 		this.appService.setSeo(
 			`${p?.name} | Ladies' Dress Store T.Potier`,
 			p?.description?.en?.trim() || '',
-			p?.images?.[0] ? `https://tpotier.com/${p?.images[0].replace(/^\//, '')}` : '',
+			`${p?.images[0]}`,
 		);
 	}
 

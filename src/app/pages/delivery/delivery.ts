@@ -15,7 +15,7 @@ export class DeliveryPage {
 		this.appService.setSeo(
 			`Payment & delivery | Ladies' Dress Store T.Potier`,
 			`Transparent payment terms, clear production timelines, and worldwide delivery. We ensure a smooth ordering process from deposit to shipment, with quality control at every stage and dedicated support for retail and wholesale clients.`,
-			`https://tpotier.com/assets/logoceo.jpg`,
+			`/assets/logoceo.jpg`,
 		);
 	}
 }

@@ -74,7 +74,7 @@ export class ProductsPage {
 			this.collection
 				? this.header
 				: `T.Potier offers a collection of women's wedding dresses, ranging from classic styles to extraordinary designs. Our brand guarantees the high quality and perfection of each product. You can easily place a wholesale order for any dress design you wish by contacting us; you can find our contact information below. We look forward to working with you!`,
-			this.collection ? this.images.mobile : `https://tpotier.com/assets/logoceo.jpg`,
+			this.collection ? this.images.mobile : `/assets/logoceo.jpg`,
 		);
 	}
 }

@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, HostListener, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { links } from '../../app.links';
 
@@ -10,12 +10,12 @@ import { links } from '../../app.links';
 	changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class Topbar {
-	protected readonly scrolled = signal(false);
+	protected readonly scrolled = signal(true);
 
 	protected readonly links = links;
 
-	@HostListener('window:scroll')
-	protected onScroll() {
-		this.scrolled.set(window.scrollY > 8);
-	}
+	// @HostListener('window:scroll')
+	// protected onScroll() {
+	// 	this.scrolled.set(window.scrollY > 8);
+	// }
 }

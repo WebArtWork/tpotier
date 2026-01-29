@@ -387,4 +387,20 @@ export const PRODUCTS: Product[] = [
 			ua: 'Valerie — сукня з виразною лінією декольте та повністю мереживним силуетом з візерунками квітів і листя, доповненими делікатними паєтками. Шнурівка на спинці дозволяє красиво підкреслити талію. У комплект входять рукавички до плечей, а за бажанням образ можна доповнити шифоновим шарфом.',
 		},
 	},
+	{
+		name: 'Susanna',
+		id: 'susanna',
+		category: 'Signature Collection',
+		images: [
+			'assets/photo/susanna/1.jpg',
+			'assets/photo/susanna/2.jpg',
+			'assets/photo/susanna/3.jpg',
+			'assets/photo/susanna/4.jpg',
+			'assets/photo/susanna/5.jpg',
+		],
+		description: {
+			en: "The 'Susanna' dress is a romantic A-line wedding gown with a fitted bodice and a light tulle skirt. Delicate floral lace gracefully adorns the bodice and flows onto the skirt, adding elegance. A deep neckline with wide straps, an open back, and a high slit in the skirt create a modern yet refined look. The long train adds a touch of fairytale charm.",
+			ua: "Сукня 'Susanna' — це романтична весільна сукня А-силуету з облягаючим корсетом і легкою фатиновою спідницею. Квіткове мереживо витончено прикрашає корсет і переходить на спідницю, додаючи елегантності. Глибоке декольте з широкими бретелями, відкрита спина та високий розріз на спідниці створюють сучасний і водночас вишуканий образ. Довгий шлейф додає казкової грації.",
+		},
+	},
 ];

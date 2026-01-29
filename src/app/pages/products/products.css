@@ -45,8 +45,6 @@
 .products__intro-nav {
 	@apply absolute left-4 top-16 z-20;
 	@apply w-[260px] max-w-[calc(100%-2rem)];
-	@apply bg-black/35 backdrop-blur-sm;
-	@apply border border-white/15;
 	@apply px-6 py-6;
 	@apply text-white;
 }

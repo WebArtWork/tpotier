@@ -1,0 +1,1 @@
+function t(e){return(e||"").trim().toLowerCase().replace(/['"]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,"")}function g(e){return decodeURIComponent(e||"").replace(/-/g," ").replace(/\s+/g," ").trim().replace(/\b\w/g,r=>r.toUpperCase())}export{t as a,g as b};

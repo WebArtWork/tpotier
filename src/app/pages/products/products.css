@@ -7,7 +7,7 @@
 /* intro */
 .products__intro {
 	@apply relative w-full;
-	@apply h-[50vh] min-h-[320px] max-h-[560px];
+	@apply h-[80vh] min-h-[320px] max-h-[560px];
 	@apply overflow-hidden;
 }
 

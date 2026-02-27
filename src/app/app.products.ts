@@ -1,6 +1,27 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Elan',
+		id: 'elan',
+		category: 'Éclat Collection',
+		images: [
+			'/assets/photo/elan/1.jpg',
+			'/assets/photo/elan/2.jpg',
+			'/assets/photo/elan/3.jpg',
+			'/assets/photo/elan/4.jpg',
+			'/assets/photo/elan/5.jpg',
+			'/assets/photo/elan/6.jpg',
+			'/assets/photo/elan/7.jpg',
+			'/assets/photo/elan/8.jpg',
+			'/assets/photo/elan/9.jpg',
+			'/assets/photo/elan/10.jpg',
+		],
+		description: {
+			en: 'Elan is a refined satin gown in a modified A-line silhouette with a flattering V-neckline and cross-draped corset. Delicate sequin and bead embroidery adds a subtle sparkle, while the lace-up back ensures a graceful and adjustable fit.',
+			ua: 'Elan — вишукана атласна сукня модифікованого А-силуету з глибоким V-подібним вирізом і корсетом із перехресним драпіруванням. Делікатна вишивка паєтками та бісером додає легкого сяйва. Шнурівка на спинці забезпечує елегантну та зручну посадку.',
+		},
+	},
+	{
 		name: 'Charlotte',
 		id: 'charlotte',
 		category: 'Éclat Collection',

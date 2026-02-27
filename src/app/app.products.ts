@@ -1,6 +1,23 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Charly',
+		id: 'charly',
+		category: 'Éclat Collection',
+		images: [
+			'/assets/photo/charly/1.jpg',
+			'/assets/photo/charly/2.jpg',
+			'/assets/photo/charly/3.jpg',
+			'/assets/photo/charly/4.jpg',
+			'/assets/photo/charly/5.jpg',
+			'/assets/photo/charly/6.jpg',
+		],
+		description: {
+			en: 'Charly is a lace A-line gown with a sweetheart neckline and subtle V-cut. The structured corset defines the waist and is embellished with beads and sequins in delicate vine motifs. A voluminous lace skirt adds softness and movement, while detachable sleeves and a lace-up back complete the look.',
+			ua: 'Charly — це мереживна сукня силуету A-line з вирізом sweetheart та легким V-поглибленням. Структурований корсет підкреслює талію та оздоблений бісером і паєтками у витонченому візерунку лози. Об’ємна мереживна спідниця додає легкості та руху, а знімні рукави й шнурівка ззаду завершують образ.',
+		},
+	},
+	{
 		name: 'Elan',
 		id: 'elan',
 		category: 'Éclat Collection',

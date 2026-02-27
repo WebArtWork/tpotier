@@ -1,6 +1,23 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Charlotte',
+		id: 'charlotte',
+		category: 'Éclat Collection',
+		images: [
+			'/assets/photo/charlotte/1.jpg',
+			'/assets/photo/charlotte/2.jpg',
+			'/assets/photo/charlotte/3.jpg',
+			'/assets/photo/charlotte/4.jpg',
+			'/assets/photo/charlotte/5.jpg',
+			'/assets/photo/charlotte/6.jpg',
+		],
+		description: {
+			en: 'Charlotte is a fitted gown crafted from delicate French Chantilly lace and adorned with pearls. Featuring open shoulders and romantic neckline, it beautifully enhances the silhouette. A lace-up back adds elegance and adjustability.',
+			ua: 'Charlotte — облягаюча сукня з вишуканого французького мережива Шантильї, оздоблена перлами. Відкриті плечі та романтичний виріз підкреслюють силует, створюючи жіночний та елегантний образ. Шнурівка на спинці додає витонченості та дозволяє відрегулювати посадку.',
+		},
+	},
+	{
 		name: 'Marine',
 		id: 'marine',
 		category: 'Éclat Collection',

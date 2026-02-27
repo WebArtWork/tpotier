@@ -25,3 +25,7 @@
 .collections__item--atelier {
 	background-image: url('/assets/bgatelier.png');
 }
+
+.collections__item--eclat {
+	background-image: url('/assets/bgeclat.png');
+}

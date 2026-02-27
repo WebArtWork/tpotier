@@ -28,6 +28,8 @@ export class ProductsPage {
 		: '';
 
 	collectionHeaders = {
+		'Éclat Collection':
+			'Essence is a fresh take on bridal design, defined by modern silhouettes, subtle sensuality, and confident elegance.',
 		'Essence Collection':
 			'Essence is a fresh take on bridal design, defined by modern silhouettes, subtle sensuality, and confident elegance.',
 		'Signature Collection':
@@ -42,6 +44,10 @@ export class ProductsPage {
 	};
 
 	collectionsImages = {
+		'Éclat Collection': {
+			web: '/assets/bgweclat.png',
+			mobile: '/assets/bgeclat.png',
+		},
 		'Essence Collection': {
 			web: '/assets/bgwessence.png',
 			mobile: '/assets/bgessence.png',

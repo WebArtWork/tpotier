@@ -1,6 +1,25 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Marine',
+		id: 'marine',
+		category: 'Éclat Collection',
+		images: [
+			'/assets/photo/marine/1.jpg',
+			'/assets/photo/marine/2.jpg',
+			'/assets/photo/marine/3.jpg',
+			'/assets/photo/marine/4.jpg',
+			'/assets/photo/marine/5.jpg',
+			'/assets/photo/marine/6.jpg',
+			'/assets/photo/marine/7.jpg',
+			'/assets/photo/marine/8.jpg',
+		],
+		description: {
+			en: 'Marine is a fitted gown with a sweetheart neckline, crafted from soft Chantilly lace. The corset features delicate beadwork and petal embellishments, creating a refined, dimensional look. An optional overskirt adds volume, while the lace-up back ensures a perfect fit.',
+			ua: 'Marine — облягаюча сукня з вирізом «серце», виконана з ніжного мережива Шантильї. Корсет оздоблений делікатною вишивкою бісером та аплікаціями у формі пелюсток, що створюють витончений об’ємний ефект. За бажанням образ можна доповнити знімною верхньою спідницею для більшого об’єму. Шнурівка на спинці забезпечує ідеальну посадку.',
+		},
+	},
+	{
 		name: 'Rose',
 		id: 'rose',
 		category: 'Essence Collection',

@@ -1,6 +1,26 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Karen',
+		id: 'karen',
+		category: 'Éclat Collection',
+		images: [
+			'/assets/photo/karen/1.jpg',
+			'/assets/photo/karen/2.jpg',
+			'/assets/photo/karen/3.jpg',
+			'/assets/photo/karen/4.jpg',
+			'/assets/photo/karen/5.jpg',
+			'/assets/photo/karen/6.jpg',
+			'/assets/photo/karen/7.jpg',
+			'/assets/photo/karen/8.jpg',
+			'/assets/photo/karen/9.jpg',
+		],
+		description: {
+			en: 'Karen is a timeless satin gown in a modified A-line silhouette featuring a sweetheart neckline. The draped corset subtly reveals a shimmering lining and finishes in a delicate V-shaped waistline. A lace-up back completes the look, offering both elegance and a perfect fit.',
+			ua: 'Karen — позачасова атласна сукня модифікованого А-силуету з вирізом «серце». Драпірований корсет делікатно відкриває мерехтливу підкладку та завершується витонченою V-подібною лінією талії. Шнурівка на спинці доповнює образ, забезпечуючи елегантність і бездоганну посадку.',
+		},
+	},
+	{
 		name: 'Ilaria',
 		id: 'ilaria',
 		category: 'Éclat Collection',

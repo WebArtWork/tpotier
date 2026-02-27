@@ -1,6 +1,25 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Ilaria',
+		id: 'ilaria',
+		category: 'Éclat Collection',
+		images: [
+			'/assets/photo/ilaria/1.jpg',
+			'/assets/photo/ilaria/2.jpg',
+			'/assets/photo/ilaria/3.jpg',
+			'/assets/photo/ilaria/4.jpg',
+			'/assets/photo/ilaria/5.jpg',
+			'/assets/photo/ilaria/6.jpg',
+			'/assets/photo/ilaria/7.jpg',
+			'/assets/photo/ilaria/8.jpg',
+		],
+		description: {
+			en: 'Ilaria is a strapless lace gown featuring a structured, sequin-embellished corset that flows into a light A-line tulle skirt. The lace-up back ensures an adjustable fit. A matching cape fastens at the neckline and falls gracefully to the length of the dress.',
+			ua: 'Ilaria — сукня без бретелей із мереживним корсетом, оздобленим паєтками, що плавно переходить у легку спідницю A-line з фатину. Шнурівка ззаду забезпечує ідеальну посадку. Кейп, що застібається на шиї, елегантно спадає по довжині сукні.',
+		},
+	},
+	{
 		name: 'Charly',
 		id: 'charly',
 		category: 'Éclat Collection',

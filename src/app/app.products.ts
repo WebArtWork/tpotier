@@ -3,7 +3,7 @@ export const PRODUCTS: Product[] = [
 	{
 		name: 'Karen',
 		id: 'karen',
-		category: 'Éclat Collection',
+		category: 'Eclat Collection',
 		images: [
 			'/assets/photo/karen/1.jpg',
 			'/assets/photo/karen/2.jpg',
@@ -23,7 +23,7 @@ export const PRODUCTS: Product[] = [
 	{
 		name: 'Ilaria',
 		id: 'ilaria',
-		category: 'Éclat Collection',
+		category: 'Eclat Collection',
 		images: [
 			'/assets/photo/ilaria/1.jpg',
 			'/assets/photo/ilaria/2.jpg',
@@ -42,7 +42,7 @@ export const PRODUCTS: Product[] = [
 	{
 		name: 'Charly',
 		id: 'charly',
-		category: 'Éclat Collection',
+		category: 'Eclat Collection',
 		images: [
 			'/assets/photo/charly/1.jpg',
 			'/assets/photo/charly/2.jpg',
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
 	{
 		name: 'Elan',
 		id: 'elan',
-		category: 'Éclat Collection',
+		category: 'Eclat Collection',
 		images: [
 			'/assets/photo/elan/1.jpg',
 			'/assets/photo/elan/2.jpg',
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
 	{
 		name: 'Charlotte',
 		id: 'charlotte',
-		category: 'Éclat Collection',
+		category: 'Eclat Collection',
 		images: [
 			'/assets/photo/charlotte/1.jpg',
 			'/assets/photo/charlotte/2.jpg',
@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
 	{
 		name: 'Marine',
 		id: 'marine',
-		category: 'Éclat Collection',
+		category: 'Eclat Collection',
 		images: [
 			'/assets/photo/marine/1.jpg',
 			'/assets/photo/marine/2.jpg',

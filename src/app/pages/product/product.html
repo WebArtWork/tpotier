@@ -47,7 +47,9 @@
 							aria-label="Open collection"
 							class="product__meta"
 						>
-							<span class="product__pill">{{ product()?.category }}</span>
+							<span class="product__pill">{{
+								product()?.category?.replace('Eclat', 'Éclat')
+							}}</span>
 						</a>
 
 						@if (product()?.description?.en || product()?.description?.ua) {

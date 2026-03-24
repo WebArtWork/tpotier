@@ -2,21 +2,19 @@ import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
 		name: 'Sharon 2',
-		id: 'sharon',
+		id: 'sharon 2',
 		category: 'Élan Collection',
 		images: [
-			'/assets/photo/rose/1.jpg',
-			'/assets/photo/rose/2.jpg',
-			'/assets/photo/rose/3.jpg',
-			'/assets/photo/rose/4.jpg',
-			'/assets/photo/rose/5.jpg',
-			'/assets/photo/rose/6.jpg',
-			'/assets/photo/rose/7.jpg',
-			'/assets/photo/rose/8.jpg',
+			'/assets/photo/sharon 2/1.JPG',
+			'/assets/photo/sharon 2/2.JPG',
+			'/assets/photo/sharon 2/3.JPG',
+			'/assets/photo/sharon 2/4.JPG',
+			'/assets/photo/sharon 2/5.JPG',
+			'/assets/photo/sharon 2/6.JPG',
 		],
 		description: {
-			en: 'Rose is a transformative gown featuring a structured, fitted corset adorned with pearls, clearly defining the waist. The skirt follows the hips before softly flaring out, creating a confident, sculpted silhouette. A pearl necklace detail at the neckline completes the look with a classic, refined finish.',
-			ua: 'Rose — сукня-трансформер зі структурованим приталеним корсетом, прикрашеним перлами, що чітко підкреслює талію. Спідниця щільно облягає стегна та плавно розширюється донизу, формуючи виразний силует. Перлинний декор у зоні декольте завершує образ стриманою класикою.',
+			en: 'Sharon 2 is a mermaid gown with a deep V-neckline and a sculpted, figure-enhancing silhouette. Crafted from luxurious embroidered lace, it elegantly follows the body before flaring into a soft skirt. The design is complemented by a sheer bolero with delicate detailing, adding a sophisticated and versatile layer to the look.',
+			ua: 'Sharon 2 — сукня силуету «русалка» з глибоким V-подібним вирізом. Модель облягає фігуру та розширюється донизу, створюючи витончений силует. Виконана з розкішного розшитого мережива. Образ доповнює прозоре болеро з декоративним оздобленням.',
 		},
 	},
 	{

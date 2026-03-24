@@ -5,12 +5,11 @@ export const PRODUCTS: Product[] = [
 		id: 'sharon 2',
 		category: 'Élan Collection',
 		images: [
-			'/assets/photo/sharon 2/1.JPG',
-			'/assets/photo/sharon 2/2.JPG',
-			'/assets/photo/sharon 2/3.JPG',
-			'/assets/photo/sharon 2/4.JPG',
-			'/assets/photo/sharon 2/5.JPG',
-			'/assets/photo/sharon 2/6.JPG',
+			'/assets/photo/sharon-2/2.jpg',
+			'/assets/photo/sharon-2/3.jpg',
+			'/assets/photo/sharon-2/4.jpg',
+			'/assets/photo/sharon-2/5.jpg',
+			'/assets/photo/sharon-2/6.jpg',
 		],
 		description: {
 			en: 'Sharon 2 is a mermaid gown with a deep V-neckline and a sculpted, figure-enhancing silhouette. Crafted from luxurious embroidered lace, it elegantly follows the body before flaring into a soft skirt. The design is complemented by a sheer bolero with delicate detailing, adding a sophisticated and versatile layer to the look.',

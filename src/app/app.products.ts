@@ -1,6 +1,25 @@
 import { Product } from './app.interface';
 export const PRODUCTS: Product[] = [
 	{
+		name: 'Sharon 2',
+		id: 'sharon',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/rose/1.jpg',
+			'/assets/photo/rose/2.jpg',
+			'/assets/photo/rose/3.jpg',
+			'/assets/photo/rose/4.jpg',
+			'/assets/photo/rose/5.jpg',
+			'/assets/photo/rose/6.jpg',
+			'/assets/photo/rose/7.jpg',
+			'/assets/photo/rose/8.jpg',
+		],
+		description: {
+			en: 'Rose is a transformative gown featuring a structured, fitted corset adorned with pearls, clearly defining the waist. The skirt follows the hips before softly flaring out, creating a confident, sculpted silhouette. A pearl necklace detail at the neckline completes the look with a classic, refined finish.',
+			ua: 'Rose — сукня-трансформер зі структурованим приталеним корсетом, прикрашеним перлами, що чітко підкреслює талію. Спідниця щільно облягає стегна та плавно розширюється донизу, формуючи виразний силует. Перлинний декор у зоні декольте завершує образ стриманою класикою.',
+		},
+	},
+	{
 		name: 'Rose',
 		id: 'rose',
 		category: 'Essence Collection',

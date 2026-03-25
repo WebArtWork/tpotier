@@ -5,6 +5,7 @@ export const PRODUCTS: Product[] = [
 		id: 'sharon 2',
 		category: 'Élan Collection',
 		images: [
+			'/assets/photo/sharon-2/1.JPG',
 			'/assets/photo/sharon-2/2.jpg',
 			'/assets/photo/sharon-2/3.jpg',
 			'/assets/photo/sharon-2/4.jpg',

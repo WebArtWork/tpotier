@@ -35,6 +35,23 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
+		name: 'Merlin',
+		id: 'merlin',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/merlin/1.JPG',
+			'/assets/photo/merlin/2.JPG',
+			'/assets/photo/merlin/3.JPG',
+			'/assets/photo/merlin/4.JPG',
+			'/assets/photo/merlin/5.JPG',
+			'/assets/photo/merlin/6.JPG',
+		],
+		description: {
+			en: 'Merlin is a draped mermaid gown crafted from satin and layered with embellished fabric. The sweetheart neckline highlights the décolletage, while sequins, beads, and delicate petal details create a textured, luminous effect. A thigh-high slit adds movement and modern allure, and removable straps offer styling versatility. The gown is finished with a clean back closure.',
+			ua: 'Merlin — драпірована сукня силуету «русалка» з серцеподібним вирізом, виконана з атласу. Модель оздоблена паєтками, бісером і ніжними пелюстками, що створюють об’ємний ефект. Високий розріз додає виразності, а знімні бретелі забезпечують варіативність образу. Застібка — блискавка на спинці.',
+		},
+	},
+	{
 		name: 'Rose',
 		id: 'rose',
 		category: 'Essence Collection',

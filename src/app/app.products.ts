@@ -18,6 +18,23 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
+		name: 'Margo',
+		id: 'margo',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/margo/1.JPG',
+			'/assets/photo/margo/2.JPG',
+			'/assets/photo/margo/3.JPG',
+			'/assets/photo/margo/4.JPG',
+			'/assets/photo/margo/5.JPG',
+			'/assets/photo/margo/6.JPG',
+		],
+		description: {
+			en: 'Margo is a classic A-line gown in an elegant ivory shade. The fitted bodice flows seamlessly into a full, voluminous skirt, creating a timeless silhouette. An asymmetrical slit adds a contemporary edge, while the bodice features delicate straps and a softly draped detail over one shoulder. The lace-up back ensures both comfort and adjustability.',
+			ua: 'Margo — класична сукня А-силуету в кольорі ivory. Приталений ліф плавно переходить у пишну спідницю. Модель вирізняється асиметричним розрізом та оригінальним корсетом із тонкими бретелями і драпірованою деталлю на одне плече. Застібка — шнурівка на спинці.',
+		},
+	},
+	{
 		name: 'Rose',
 		id: 'rose',
 		category: 'Essence Collection',

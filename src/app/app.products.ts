@@ -69,6 +69,24 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
+		name: 'Paula',
+		id: 'paula',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/paula/1.JPG',
+			'/assets/photo/paula/2.JPG',
+			'/assets/photo/paula/3.JPG',
+			'/assets/photo/paula/4.JPG',
+			'/assets/photo/paula/5.JPG',
+			'/assets/photo/paula/6.JPG',
+			'/assets/photo/paula/7.JPG',
+		],
+		description: {
+			en: 'Paula is an A-line gown with a soft, flowing chiffon skirt and a structured strapless bodice. The corset highlights the shoulders and creates a flattering, feminine shape, while a high slit adds a modern touch. The bodice is richly decorated with floral lace and appliqués that extend onto the skirt, creating a harmonious design. A matching cape adds lightness and movement to the overall look.',
+			ua: 'Paula — сукня А-силуету з легкою, багатошаровою спідницею з шифону. Модель без бретелей із корсетним ліфом, що підкреслює лінію плечей. Високий розріз додає динаміки образу. Ліф щедро оздоблений об’ємним мереживом і квітковими аплікаціями, які плавно переходять на спідницю. У комплекті — накидка, що фіксується на шиї та прикриває руки. Застібка — блискавка на спинці.',
+		},
+	},
+	{
 		name: 'Rose',
 		id: 'rose',
 		category: 'Essence Collection',

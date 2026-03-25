@@ -52,6 +52,23 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
+		name: 'Wally',
+		id: 'wally',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/wally/1.JPG',
+			'/assets/photo/wally/2.JPG',
+			'/assets/photo/wally/3.JPG',
+			'/assets/photo/wally/4.JPG',
+			'/assets/photo/wally/5.JPG',
+			'/assets/photo/wally/6.JPG',
+		],
+		description: {
+			en: 'Wally is an elegant A-line gown crafted from delicate French Chantilly lace. It features a structured bodice with a square neckline and wide straps, subtly embellished with fine pearls along the edges. The silhouette is enhanced with soft volume at the hips, creating a balanced and graceful shape. The look is completed with a delicate floral choker for a refined finishing touch.',
+			ua: 'Wally — сукня А-силуету з квадратним вирізом і широкими бретелями. Лінія декольте та корсет делікатно оздоблені дрібними перлинами. Виконана з ніжного французького мережива шантільї, модель має додатковий об’єм у зоні стегон. У комплекті — витончений чокер із квітковим декором.',
+		},
+	},
+	{
 		name: 'Rose',
 		id: 'rose',
 		category: 'Essence Collection',

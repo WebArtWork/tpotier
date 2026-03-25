@@ -52,6 +52,22 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
+		name: 'Lea',
+		id: 'lea',
+		category: 'Signature Collection',
+		images: [
+			'/assets/photo/lea/1.jpg',
+			'/assets/photo/lea/2.jpg',
+			'/assets/photo/lea/3.jpg',
+			'/assets/photo/lea/4.jpg',
+			'/assets/photo/lea/5.jpg',
+		],
+		description: {
+			en: "The 'Lea' dress is a timeless and romantic gown that embodies elegance and grace. Its strapless ruched bodice beautifully shapes the figure, while the flowing tulle skirt creates a soft and airy look. The corset back ensures a perfect fit, enhancing both comfort and style. This dress is perfect for brides who appreciate classic beauty with a modern touch.",
+			ua: "Сукня 'Lea' — це вічна класика та романтичний образ, що випромінює елегантність і ніжність. Корсетний ліф із драпіруванням чудово підкреслює фігуру, а легка фатинова спідниця надає легкості та витонченості. Завдяки корсетній спинці сукня ідеально сідає, забезпечуючи комфорт і стиль. Ідеальний вибір для наречених, які цінують класичну красу з сучасним акцентом.",
+		},
+	},
+	{
 		name: 'Wally',
 		id: 'wally',
 		category: 'Élan Collection',
@@ -66,6 +82,23 @@ export const PRODUCTS: Product[] = [
 		description: {
 			en: 'Wally is an elegant A-line gown crafted from delicate French Chantilly lace. It features a structured bodice with a square neckline and wide straps, subtly embellished with fine pearls along the edges. The silhouette is enhanced with soft volume at the hips, creating a balanced and graceful shape. The look is completed with a delicate floral choker for a refined finishing touch.',
 			ua: 'Wally — сукня А-силуету з квадратним вирізом і широкими бретелями. Лінія декольте та корсет делікатно оздоблені дрібними перлинами. Виконана з ніжного французького мережива шантільї, модель має додатковий об’єм у зоні стегон. У комплекті — витончений чокер із квітковим декором.',
+		},
+	},
+	{
+		name: 'Estelle',
+		id: 'estelle',
+		category: 'Essence Collection',
+		images: [
+			'/assets/photo/estelle/1.jpg',
+			'/assets/photo/estelle/2.jpg',
+			'/assets/photo/estelle/3.jpg',
+			'/assets/photo/estelle/4.jpg',
+			'/assets/photo/estelle/5.jpg',
+			'/assets/photo/estelle/6.jpg',
+		],
+		description: {
+			en: 'Estelle is a floor-length gown with a soft neckline and a corset with back ties that beautifully defines the silhouette. Crafted from Chantilly lace layered with nylon, the dress has a light, airy texture with refined floral detailing.',
+			ua: 'Estelle — сукня довжини максі з м’якою лінією декольте та корсетом зі шнурівкою на спинці, що гарно підкреслює силует. Виготовлена з мережива Chantilly, покритого нейлоном, сукня має легку, повітряну текстуру та вишукані квіткові деталі.',
 		},
 	},
 	{
@@ -119,7 +152,7 @@ export const PRODUCTS: Product[] = [
 		],
 		description: {
 			en: 'Sara is a mermaid gown crafted from embroidered lace and airy tulle. It features a romantic sweetheart neckline and a sculpted silhouette that enhances the figure. The bodice is richly adorned with beads and sequins in an intricate pattern, adding a refined sparkle. The back combines a concealed zipper with a row of delicate sheer buttons, while a matching cape completes the look with soft movement.',
-			ua: 'Сара — сукня силуету «русалка», виконана з розшитого мережива та хаялю. Модель має серцеподібний виріз і приталений корсет, що підкреслює фігуру. Ліф оздоблений бісером і паєтками у витонченому візерунку. Спинка поєднує застібку-блискавку в нижній частині та ряд прозорих ґудзиків зверху. Образ доповнює накидка на плечі довжиною в сукню.',
+			ua: 'Sara — сукня силуету «русалка», виконана з розшитого мережива та хаялю. Модель має серцеподібний виріз і приталений корсет, що підкреслює фігуру. Ліф оздоблений бісером і паєтками у витонченому візерунку. Спинка поєднує застібку-блискавку в нижній частині та ряд прозорих ґудзиків зверху. Образ доповнює накидка на плечі довжиною в сукню.',
 		},
 	},
 	{
@@ -139,19 +172,39 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
-		name: 'Lea',
-		id: 'lea',
-		category: 'Signature Collection',
+		name: 'Toby',
+		id: 'toby',
+		category: 'Élan Collection',
 		images: [
-			'/assets/photo/lea/1.jpg',
-			'/assets/photo/lea/2.jpg',
-			'/assets/photo/lea/3.jpg',
-			'/assets/photo/lea/4.jpg',
-			'/assets/photo/lea/5.jpg',
+			'/assets/photo/toby/1.JPG',
+			'/assets/photo/toby/2.JPG',
+			'/assets/photo/toby/3.JPG',
+			'/assets/photo/toby/4.JPG',
+			'/assets/photo/toby/5.JPG',
+			'/assets/photo/toby/6.JPG',
+			'/assets/photo/toby/7.JPG',
+			'/assets/photo/toby/8.JPG',
 		],
 		description: {
-			en: "The 'Lea' dress is a timeless and romantic gown that embodies elegance and grace. Its strapless ruched bodice beautifully shapes the figure, while the flowing tulle skirt creates a soft and airy look. The corset back ensures a perfect fit, enhancing both comfort and style. This dress is perfect for brides who appreciate classic beauty with a modern touch.",
-			ua: "Сукня 'Lea' — це вічна класика та романтичний образ, що випромінює елегантність і ніжність. Корсетний ліф із драпіруванням чудово підкреслює фігуру, а легка фатинова спідниця надає легкості та витонченості. Завдяки корсетній спинці сукня ідеально сідає, забезпечуючи комфорт і стиль. Ідеальний вибір для наречених, які цінують класичну красу з сучасним акцентом.",
+			en: 'Toby is a refined sheath gown made from lace adorned with delicate pearls. The strapless design features an asymmetrical neckline with a soft wave along the décolletage. It gently contours the bust, waist, and hips, creating a sleek and feminine silhouette. An optional overskirt adds volume and versatility, while a discreet back closure ensures a seamless finish.',
+			ua: 'Тоby — сукня прямого силуету, виконана з мережива, оздобленого перлинами. Модель без бретелей із асиметричним вирізом і м’якою хвилею по лінії декольте. Сукня делікатно підкреслює талію, груди та стегна, плавно спадаючи донизу. Для додаткового об’єму передбачена накладна спідниця. Застібка — блискавка на спинці.',
+		},
+	},
+	{
+		name: 'Andy',
+		id: 'andy',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/andy/1.JPG',
+			'/assets/photo/andy/2.JPG',
+			'/assets/photo/andy/3.JPG',
+			'/assets/photo/andy/4.JPG',
+			'/assets/photo/andy/5.JPG',
+			'/assets/photo/andy/6.JPG',
+		],
+		description: {
+			en: 'Andy is a delicate Chantilly lace gown featuring a soft, fluid silhouette and a refined halter neckline. The sheer lace is adorned with intricate 3D floral appliqués, creating a light and dimensional effect. A structured corset enhances the figure, while the addition of sleeves and decorative buttons at the back completes the look with elegance.',
+			ua: 'Andy — сукня з ніжного мережива шантільї з м’яким силуетом та халтер-вирізом. Прозоре мереживо прикрашене об’ємними 3D-квітами. Чіткий корсет, оздоблений квітковими елементами, підкреслює фігуру. Модель має рукави та застібку на спинці з декоративними ґудзиками.',
 		},
 	},
 	{
@@ -201,23 +254,6 @@ export const PRODUCTS: Product[] = [
 		description: {
 			en: "The 'Gaby' dress is a timeless transformer wedding gown crafted from luxurious satin. Featuring a structured draped corset and a romantic sweetheart neckline, this gown is designed to accentuate the bride’s silhouette. The highlight of the look is its voluminous detachable sleeves, which create an elegant off-shoulder effect for the ceremony. Remove the sleeves to reveal a refined strapless silhouette, perfect for dancing the night away. A high slit adds a touch of modern allure to this classic design, allowing for effortless movement and two distinct bridal looks in one.",
 			ua: "Сукня 'Gaby' — це вічна класика у стилі трансформер, виконана з розкішного сатину. Структурований драпірований корсет і романтичне декольте-сердечко створюють витончений силует. Особливістю образу є об’ємні знімні рукави, які надають образу елегантності під час церемонії. Для вечора рукави можна зняти — й сукня перетвориться на лаконічну модель без бретелей, ідеальну для танців та святкування. Розріз додає сучасної сміливості, підкреслюючи стиль і легкість рухів.",
-		},
-	},
-	{
-		name: 'Estelle',
-		id: 'estelle',
-		category: 'Essence Collection',
-		images: [
-			'/assets/photo/estelle/1.jpg',
-			'/assets/photo/estelle/2.jpg',
-			'/assets/photo/estelle/3.jpg',
-			'/assets/photo/estelle/4.jpg',
-			'/assets/photo/estelle/5.jpg',
-			'/assets/photo/estelle/6.jpg',
-		],
-		description: {
-			en: 'Estelle is a floor-length gown with a soft neckline and a corset with back ties that beautifully defines the silhouette. Crafted from Chantilly lace layered with nylon, the dress has a light, airy texture with refined floral detailing.',
-			ua: 'Estelle — сукня довжини максі з м’якою лінією декольте та корсетом зі шнурівкою на спинці, що гарно підкреслює силует. Виготовлена з мережива Chantilly, покритого нейлоном, сукня має легку, повітряну текстуру та вишукані квіткові деталі.',
 		},
 	},
 	{

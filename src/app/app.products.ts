@@ -106,6 +106,23 @@ export const PRODUCTS: Product[] = [
 		},
 	},
 	{
+		name: 'Sara',
+		id: 'sara',
+		category: 'Élan Collection',
+		images: [
+			'/assets/photo/sara/1.JPG',
+			'/assets/photo/sara/2.JPG',
+			'/assets/photo/sara/3.JPG',
+			'/assets/photo/sara/4.JPG',
+			'/assets/photo/sara/5.JPG',
+			'/assets/photo/sara/6.JPG',
+		],
+		description: {
+			en: 'Sara is a mermaid gown crafted from embroidered lace and airy tulle. It features a romantic sweetheart neckline and a sculpted silhouette that enhances the figure. The bodice is richly adorned with beads and sequins in an intricate pattern, adding a refined sparkle. The back combines a concealed zipper with a row of delicate sheer buttons, while a matching cape completes the look with soft movement.',
+			ua: 'Сара — сукня силуету «русалка», виконана з розшитого мережива та хаялю. Модель має серцеподібний виріз і приталений корсет, що підкреслює фігуру. Ліф оздоблений бісером і паєтками у витонченому візерунку. Спинка поєднує застібку-блискавку в нижній частині та ряд прозорих ґудзиків зверху. Образ доповнює накидка на плечі довжиною в сукню.',
+		},
+	},
+	{
 		name: 'Felix',
 		id: 'felix',
 		category: 'Signature Collection',
